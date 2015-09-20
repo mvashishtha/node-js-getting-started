@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
-  "scripts": {
+    "scripts": {
     "start": "node index.js"
   },
   "dependencies": {

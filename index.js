@@ -44,7 +44,7 @@ app.get('/', function(request, response) {
   //var times = process.env.TIMES || 5;
   var times = 5;
   for (i=0; i < times; i++)
-    result += cool();
+    result += cool();  
   response.send(result);
 });
 

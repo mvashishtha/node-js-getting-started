@@ -45,7 +45,7 @@ app.get('/', function(request, response) {
   var times = 5;
   for (i=0; i < times; i++)
     result += cool();
-  result+= "WTH";
+  result+= "hi";
   response.send(result);
 });
 

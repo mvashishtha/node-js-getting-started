@@ -15,6 +15,7 @@ app.get('/', function(request, response) {
   var times  = process.env.TIMES || 5
   for (i = 0; i < times; i++)
       result += cool() + '1';
+      result += 'my hand is a dolphin';
       response.send(result); 
         response.send(cool());
 });
@@ -45,6 +46,7 @@ app.get('/', function(request, response) {
   var times = 5;
   for (i=0; i < times; i++)
     result += cool();  
+  result+= "hi. more changes from mahesh! <3 <3";
   response.send(result);
 });
 
